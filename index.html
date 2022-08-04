@@ -1,0 +1,743 @@
+<!DOCTYPE html>
+<html lang="en">
+<title>Weavers Website</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<style>
+body {font-family: "Lato", sans-serif}
+.mySlides {display: none}
+</style>
+<body>
+
+
+    <!-- Navbar -->
+    <div class="w3-top">
+    <div class="w3-bar w3-border w3-white w3-card">
+        <a class="w3-bar-item w3-button w3-padding-large w3-hide-medium w3-hide-large w3-right" href="javascript:void(0)" onclick="myFunction()" title="Toggle Navigation Menu"><i class="fa fa-bars"></i></a>
+        <a href="#" class="w3-bar-item w3-button w3-padding-large">CATALOGUE</a>
+        <a href="#weavers" class="w3-bar-item w3-button w3-padding-large w3-hide-small">WEAVERS</a>
+        <a href="#warangal" class="w3-bar-item w3-button w3-padding-large w3-hide-small">WARANGAL</a>
+        <a href="#aboutus" class="w3-bar-item w3-button w3-padding-large w3-hide-small">ABOUT US</a>
+        <a href="#contact" class="w3-bar-item w3-button w3-padding-large" onclick="myFunction()">CONTACT</a>
+
+        <div class="w3-dropdown-hover w3-hide-small">
+            
+        </div>
+        <a href="#signup" class="w3-bar-item w3-button w3-padding-large w3-hide-small w3-right">SIGN UP</a>
+    </div>
+    </div>
+
+
+    <!-- Navbar on small screens (remove the onclick attribute if you want the navbar to always show on top of the content when clicking on the links) -->
+    <div id="navDemo" class="w3-bar-block w3-black w3-hide w3-hide-large w3-hide-medium w3-top" style="margin-top:46px">
+    <a href="#weavers" class="w3-bar-item w3-button w3-padding-large" onclick="myFunction()">WEAVERS</a>
+    <a href="#warangal" class="w3-bar-item w3-button w3-padding-large" onclick="myFunction()">TOUR</a>
+    <a href="#aboutus" class="w3-bar-item w3-button w3-padding-large w3-hide-small">ABOUT US</a>
+    <a href="#contact" class="w3-bar-item w3-button w3-padding-large" onclick="myFunction()">CONTACT</a>
+    
+    <a href="#" class="w3-bar-item w3-button w3-padding-large" onclick="myFunction()">MERCH</a>
+    </div>
+    <a href="#signup" class="w3-bar-item w3-button w3-padding-large w3-hide-small w3-right">SIGN UP</a>
+
+    <!-- Page content -->
+    
+    <div class="w3-black" id="#">
+        <div class="w3-container w3-content w3-padding-64" style="max-width:1000px">
+        <h2 class="w3-wide w3-center">SHOP FROM OUR EXOTIC COLLECTION OF CARPETS</h2>
+        <p class="w3-opacity w3-center"><i>Independance Day Sale is LIVE!</i></p><br>
+
+        <style>
+          body {
+            font-family: Georgia, 'Times New Roman', Times, serif;
+            margin: 100;
+          }
+          
+          * {
+            box-sizing: border-box;
+          }
+          
+          img {
+            vertical-align: middle;
+          }
+          
+          /* Position the image container (needed to position the left and right arrows) */
+          .container {
+            position: relative;
+          }
+          
+          /* Hide the images by default */
+          .mySlides {
+            display: none;
+          }
+          
+          /* Add a pointer when hovering over the thumbnail images */
+          .cursor {
+            cursor: pointer;
+          }
+          
+          /* Next & previous buttons */
+          .prev,
+          .next {
+            cursor: pointer;
+            position: absolute;
+            top: 40%;
+            width: auto;
+            padding: 16px;
+            margin-top: -50px;
+            color: white;
+            font-weight: bold;
+            font-size: 20px;
+            border-radius: 0 3px 3px 0;
+            user-select: none;
+            -webkit-user-select: none;
+          }
+          
+          /* Position the "next button" to the right */
+          .next {
+            right: 0;
+            border-radius: 3px 0 0 3px;
+          }
+          
+          /* On hover, add a black background color with a little bit see-through */
+          .prev:hover,
+          .next:hover {
+            background-color: rgba(0, 0, 0, 0.8);
+          }
+          
+          /* Number text (1/3 etc) */
+          .numbertext {
+            color: #f2f2f2;
+            font-size: 12px;
+            padding: 8px 12px;
+            position: absolute;
+            top: 0;
+          }
+          
+          /* Container for image text */
+          .caption-container {
+            text-align: center;
+            background-color: #222;
+            padding: 2px 16px;
+            color: white;
+          }
+          
+          .row:after {
+            content: "";
+            display: table;
+            clear: both;
+          }
+          
+          /* Six columns side by side */
+          .column {
+            float: left;
+            width: 16.66%;
+          }
+          
+          /* Add a transparency effect for thumnbail images */
+          .demo {
+            opacity: 0.6;
+          }
+          
+          .active,
+          .demo:hover {
+            opacity: 1;
+          }
+          </style>
+          <body>
+          
+          <h2 style="text-align:center">Our Collection</h2>
+          
+          <div class="container">
+            <div class="mySlides">
+              <div class="numbertext">1 / 6</div>
+              <img src="durries/re 3.jpg" style="width:100%">
+            </div>
+          
+            <div class="mySlides">
+              <div class="numbertext">2 / 6</div>
+              <img src="durries/re 4.jpg" style="width:100%">
+            </div>
+          
+            <div class="mySlides">
+              <div class="numbertext">3 / 6</div>
+              <img src="durries/re 1.jpg" style="width:100%">
+            </div>
+              
+            <div class="mySlides">
+              <div class="numbertext">4 / 6</div>
+              <img src="durries/re 1.jpg" style="width:100%">
+            </div>
+          
+            <div class="mySlides">
+              <div class="numbertext">5 / 6</div>
+              <img src="durries/re 2.jpg" style="width:100%">
+            </div>
+              
+            <div class="mySlides">
+              <div class="numbertext">6 / 6</div>
+              <img src="durries/re 3.jpg" style="width:100%">
+            </div>
+              
+            <a class="prev" onclick="plusSlides(-1)">❮</a>
+            <a class="next" onclick="plusSlides(1)">❯</a>
+          
+            <div class="caption-container">
+              <p id="caption"></p>
+            </div>
+          
+            <div class="row">
+              <div class="column">
+                <img class="demo cursor" src="durries/re 1.jpg" style="width:100%" onclick="currentSlide(1)" alt="Handrafted with love!">
+              </div>
+              <div class="column">
+                <img class="demo cursor" src="durries/re 2.jpg" style="width:100%" onclick="currentSlide(2)" alt="Cinque Terre">
+              </div>
+              <div class="column">
+                <img class="demo cursor" src="durries/re 3.jpg" style="width:100%" onclick="currentSlide(3)" alt="Mountains and fjords">
+              </div>
+              <div class="column">
+                <img class="demo cursor" src="durries/re 4.jpg" style="width:100%" onclick="currentSlide(4)" alt="Northern Lights">
+              </div>
+              <div class="column">
+                <img class="demo cursor" src="durries/re 1.jpg" style="width:100%" onclick="currentSlide(5)" alt="Nature and sunrise">
+              </div>    
+              <div class="column">
+                <img class="demo cursor" src="durries/re 3.jpg" style="width:100%" onclick="currentSlide(6)" alt="Snowy Mountains">
+              </div>
+            </div>
+          </div>
+          
+          <script>
+          let slide = 1;
+          showSlides(slide);
+          
+          function plusSlides(n) {
+            showSlides(slide += n);
+          }
+          
+          function currentSlide(n) {
+            showSlides(slide = n);
+          }
+          
+          function showSlides(n) {
+            let i;
+            let slides = document.getElementsByClassName("mySlides");
+            let dots = document.getElementsByClassName("demo");
+            let captionText = document.getElementById("caption");
+            if (n > slides.length) {slide = 1}
+            if (n < 1) {slide = slides.length}
+            for (i = 0; i < slides.length; i++) {
+              slides[i].style.display = "none";
+            }
+            for (i = 0; i < dots.length; i++) {
+              dots[i].className = dots[i].className.replace(" active", "");
+            }
+            slides[slide-1].style.display = "block";
+            dots[slide-1].className += " active";
+            captionText.innerHTML = dots[slide-1].alt;
+          }
+          </script>
+        <h2 style="text-align:center">Fresh Arrivals</h2>
+        <div class="w3-row-padding w3-padding-64" style="margin: 20px -40px">
+            <div class="w3-third w3-margin-bottom">
+            <img src="durries/re 2.jpg" alt="New York" style="width:100%" class="w3-hover-opacity">
+            <div class="w3-container w3-white">
+                <p><b>Carpet Name 1</b></p>
+                <p class="w3-opacity">Fri 27 Nov 2016</p>
+                <p>About the Material</p>
+                <button class="w3-button w3-black w3-margin-bottom" onclick="document.getElementById('ticketModal').style.display='block'">Buy Now</button>
+            </div>
+            </div>
+            <div class="w3-third w3-margin-bottom">
+            <img src="durries/re 3.jpg" alt="Paris" style="width:100%" class="w3-hover-opacity">
+            <div class="w3-container w3-white">
+                <p><b>Carpet Name 2</b></p>
+                <p class="w3-opacity">Sat 28 Nov 2016</p>
+                <p>About the material -2</p>
+                <button class="w3-button w3-black w3-margin-bottom" onclick="document.getElementById('ticketModal').style.display='block'">Buy Now</button>
+            </div>
+            </div>
+            <div class="w3-third w3-margin-bottom">
+            <img src="durries/re 4.jpg" alt="San Francisco" style="width:100%" class="w3-hover-opacity">
+            <div class="w3-container w3-white">
+                <p><b>Carpet Name 3</b></p>
+                <p class="w3-opacity">Sun 29 Nov 2016</p>
+                <p>About the material-3</p>
+                <button class="w3-button w3-black w3-margin-bottom" onclick="document.getElementById('ticketModal').style.display='block'">Buy Now</button>
+            </div>
+            </div>
+            
+        </div>
+        </div>
+    </div>
+
+
+    <!-- The Weavers Section -->
+    <div class="w3-container w3-content w3-center w3-padding-64" style="max-width:800px" id="weavers">
+        <h2 class="w3-wide">MEET THE WEAVERS</h2>
+        <p class="w3-opacity"><i>Carefully handcrafted with love</i></p>
+        <p class="w3-justify">The weaver continuously presses a pedal to move the sutras (heald shafts) up and down , while the shuttle is manually inserted.When a row of weft is finished, 
+          the weaver strengthens it with the use of a sattar.
+          The weavers have to pedal fast and pull the sattar quickly. When numerous colours are utilised, the weaver
+         examines the pattern on the graph to determine when the thread colour has to be changed.The durry is concurrently rolled on a beam. When the length of the desired durry is received, it is removed from the loom and sent for finishing.
+          </p>
+        
+          <div class="w3-row-padding w3-padding-32" style="margin:0 -40px">
+            <div class="w3-third w3-margin-bottom">
+            <img src="weavers/re 4.jpg" alt="Syed Karim" style="width:100%" class="w3-hover-opacity">
+            <div class="w3-container w3-border w3-card-4 w3-hover-opacity">
+                <p><b>Syed Karim </b></p>
+                <p class="w3-opacity">Age-50</p>
+                <style>
+                  .accordion {
+                    background-color: #eee;
+                    color: #444;
+                    cursor: pointer;
+                    padding: 18px;
+                    width: 100%;
+                    border: none;
+                    text-align: left;
+                    outline: none;
+                    font-size: 15px;
+                    transition: 0.4s;
+                  }
+                  
+                  .active, .accordion:hover {
+                    background-color: #ccc;
+                  }
+                  
+                  .accordion:after {
+                    content: '\002B';
+                    color: #777;
+                    font-weight: bold;
+                    float: right;
+                    margin-left: 5px;
+                  }
+                  
+                  .active:after {
+                    content: "\2212";
+                  }
+                  
+                  .panel {
+                    padding: 0 18px;
+                    background-color: white;
+                    max-height: 0;
+                    overflow: hidden;
+                    transition: max-height 0.2s ease-out;
+                  }
+                  </style>
+                  </head>
+                  <body>
+                  
+                  <button class="accordion" style="background-color:black; color:white;width:150px;">Know More</button>
+                  <div class="panel">
+                    <p>His family comprises of his wife and two children and both of them work in different fields and doesn’t practice the craft as it has no income according to their father. Karim has said that he does weaving as a laborious task, and has no other side business for income.
+                    </p>
+                  </div>
+                  
+                  <script>
+                  var acc = document.getElementsByClassName("accordion");
+                  var i;
+                  
+                  for (i = 0; i < acc.length; i++) {
+                    acc[i].addEventListener("click", function() {
+                      this.classList.toggle("active");
+                      var panel = this.nextElementSibling;
+                      if (panel.style.maxHeight) {
+                        panel.style.maxHeight = null;
+                      } else {
+                        panel.style.maxHeight = panel.scrollHeight + "px";
+                      } 
+                    });
+                  }
+                  </script>
+                
+            </div>
+            </div>
+            <div class="w3-third w3-margin-bottom">
+              
+              <img src="weavers/re 2.jpg" alt="San Francisco" style="width:100%" class="w3-hover-opacity">
+              <div class="w3-container w3-border w3-card-4 w3-dropdown-hover">
+                  <p><b>M Ramulu </b></p>
+                  <p class="w3-opacity">Age -48 </p>
+                  
+                  <style>
+                    .accordion {
+                      background-color: #eee;
+                      color: #444;
+                      cursor: pointer;
+                      padding: 18px;
+                      width: 100%;
+                      border: none;
+                      text-align: left;
+                      outline: none;
+                      font-size: 15px;
+                      transition: 0.4s;
+                    }
+                    
+                    .active, .accordion:hover {
+                      background-color: #ccc;
+                    }
+                    
+                    .accordion:after {
+                      content: '\002B';
+                      color: #777;
+                      font-weight: bold;
+                      float: right;
+                      margin-left: 5px;
+                    }
+                    
+                    .active:after {
+                      content: "\2212";
+                    }
+                    
+                    .panel {
+                      padding: 0 18px;
+                      background-color: white;
+                      max-height: 0;
+                      overflow: hidden;
+                      transition: max-height 0.2s ease-out;
+                    }
+                    </style>
+                    </head>
+                    <body>
+                    
+                    <button class="accordion" style="background-color:black; color:white;width:150px;">Know More</button>
+                    <div class="panel">
+                      <p>His family includes of his two children, a son who is working in Bangalore at present and a daughter, who is married and now put up in Hyderabad. Both his children have studied pharmacy and thus the craft is no longer practiced in the family.
+                      </p>
+                    </div>
+                    
+                    <script>
+                    var acc = document.getElementsByClassName("accordion");
+                    var i;
+                    
+                    for (i = 0; i < acc.length; i++) {
+                      acc[i].addEventListener("click", function() {
+                        this.classList.toggle("active");
+                        var panel = this.nextElementSibling;
+                        if (panel.style.maxHeight) {
+                          panel.style.maxHeight = null;
+                        } else {
+                          panel.style.maxHeight = panel.scrollHeight + "px";
+                        } 
+                      });
+                    }
+                    </script>
+              </div>
+              </div>
+            <div class="w3-third w3-margin-bottom">
+              
+            <img src="weavers/re 3.jpg" alt="San Francisco" style="width:100%" class="w3-hover-opacity">
+            <div class="w3-container w3-border w3-card-4 w3-dropdown-hover">
+                <p><b>Pitta Ramulu </b></p>
+                <p class="w3-opacity">Age -52 </p>
+                <style>
+                  .accordion {
+                    background-color: #eee;
+                    color: #444;
+                    cursor: pointer;
+                    padding: 18px;
+                    width: 100%;
+                    border: none;
+                    text-align: left;
+                    outline: none;
+                    font-size: 15px;
+                    transition: 0.4s;
+                  }
+                  
+                  .active, .accordion:hover {
+                    background-color: #ccc;
+                  }
+                  
+                  .accordion:after {
+                    content: '\002B';
+                    color: #777;
+                    font-weight: bold;
+                    float: right;
+                    margin-left: 5px;
+                  }
+                  
+                  .active:after {
+                    content: "\2212";
+                  }
+                  
+                  .panel {
+                    padding: 0 18px;
+                    background-color: white;
+                    max-height: 0;
+                    overflow: hidden;
+                    transition: max-height 0.2s ease-out;
+                  }
+                  </style>
+                  </head>
+                  <body>
+                  
+                  <button class="accordion" style="background-color:black; color:white;width:150px;">Know More</button>
+                  <div class="panel">
+                    <p>Pitta Ramulu started his weaving journey at the age of 12, after his sixth standard. He procured the techniques from his parents as it was a traditional practice where his father P. Rajeeru, did Khadi weaving and his mother practiced spinning and winding. The family lineage broke when his kids did not continue the practice of weaving even after the attaining the knowledge and techniques of weaving</p>
+                  </div>
+                  
+                  <script>
+                  var acc = document.getElementsByClassName("accordion");
+                  var i;
+                  
+                  for (i = 0; i < acc.length; i++) {
+                    acc[i].addEventListener("click", function() {
+                      this.classList.toggle("active");
+                      var panel = this.nextElementSibling;
+                      if (panel.style.maxHeight) {
+                        panel.style.maxHeight = null;
+                      } else {
+                        panel.style.maxHeight = panel.scrollHeight + "px";
+                      } 
+                    });
+                  }
+                  </script>
+            </div>
+            </div>
+        </div>
+          
+        </div>
+        </div>
+        
+    
+
+    <!-- The About US Section -->
+    <div class="w3-black" id="aboutus">
+      <div class="w3-container w3-content w3-padding-64" style="max-width:800px">
+      <h2 class="w3-wide w3-center">ABOUT US</h2>
+       <p class="w3-opacity w3-center"><i>Meet Our Team!</i></p><br>
+       <style>
+        * {box-sizing: border-box;}
+        body {font-family: Verdana, sans-serif;}
+        .mySlides {display: none;}
+        img {vertical-align: middle;}
+        
+        /* Slideshow container */
+        .slideshow-container {
+          max-width: 1000px;
+          position: relative;
+          margin: auto;
+        }
+        
+        /* Caption text */
+        .text {
+          color: #f2f2f2;
+          font-size: 15px;
+          padding: 8px 12px;
+          position: absolute;
+          bottom: 8px;
+          width: 100%;
+          text-align: center;
+        }
+        
+        /* Number text (1/3 etc) */
+        .numbertext {
+          color: #f2f2f2;
+          font-size: 12px;
+          padding: 8px 12px;
+          position: absolute;
+          top: 0;
+        }
+        
+        /* The dots/bullets/indicators */
+        .dot {
+          height: 15px;
+          width: 15px;
+          margin: 0 2px;
+          background-color: #bbb;
+          border-radius: 50%;
+          display: inline-block;
+          transition: background-color 0.6s ease;
+        }
+        
+        .active {
+          background-color: #717171;
+        }
+        
+        /* Fading animation */
+        .fade {
+          animation-name: fade;
+          animation-duration: 1.5s;
+        }
+        
+        @keyframes fade {
+          from {opacity: .4} 
+          to {opacity: 1}
+        }
+        
+        /* On smaller screens, decrease text size */
+        @media only screen and (max-width: 300px) {
+          .text {font-size: 11px}
+        }
+        </style>
+        </head>
+        <body>
+        
+        
+        <div class="slideshow-container">
+        
+        <div class="mySlides fade">
+          <div class="numbertext">1 / 3</div>
+          <img src="about us re.jpg" style="width:100%">
+          <div class="text"></div>
+        </div>
+        
+        <div class="mySlides fade">
+          <div class="numbertext">2 / 3</div>
+          <img src="abu.JPG" style="width:100%">
+          <div class="text"></div>
+        </div>
+        
+        
+        
+        </div>
+        <br>
+        
+        <div style="text-align:center">
+          <span class="dot"></span> 
+          <span class="dot"></span> 
+        </div>
+        
+        <script>
+        let slideIndex = 0;
+        showSlides();
+        
+        function showSlides() {
+          let i;
+          let slides = document.getElementsByClassName("mySlides");
+          let dots = document.getElementsByClassName("dot");
+          for (i = 0; i < slides.length; i++) {
+            slides[i].style.display = "none";  
+          }
+          slideIndex++;
+          if (slideIndex > slides.length) {slideIndex = 1}    
+          for (i = 0; i < dots.length; i++) {
+            dots[i].className = dots[i].className.replace(" active", "");
+          }
+          slides[slideIndex-1].style.display = "block";  
+          dots[slideIndex-1].className += " active";
+          setTimeout(showSlides, 2000); // Change image every 2 seconds
+        }
+        </script>
+        
+      </div>
+  </div>
+
+    <!-- Ticket Modal -->
+    <div id="ticketModal" class="w3-modal">
+        <div class="w3-modal-content w3-animate-top w3-card-4">
+        <header class="w3-container w3-teal w3-center w3-padding-32"> 
+            <span onclick="document.getElementById('ticketModal').style.display='none'" 
+        class="w3-button w3-teal w3-xlarge w3-display-topright">×</span>
+            <h2 class="w3-wide"><i class="fa fa-suitcase w3-margin-right"></i>Tickets</h2>
+        </header>
+        <div class="w3-container">
+            <p><label><i class="fa fa-shopping-cart"></i> Cost : Rs 1000</label></p>
+            <input class="w3-input w3-border" type="text" placeholder="How many?">
+            <p><label><i class="fa fa-user"></i> Send To</label></p>
+            <input class="w3-input w3-border" type="text" placeholder="Enter email">
+            <input class="w3-input w3-border" type="text" placeholder="Enter Home Address">
+            <a class="w3-button w3-block w3-teal w3-padding-16 w3-section w3-right" href="https://rzp.io/l/ooqHjM7" role="button">PAY NOW<i class="fa fa-check"></i></a>
+            <button class="w3-button w3-red w3-section" onclick="document.getElementById('ticketModal').style.display='none'">Close <i class="fa fa-remove"></i></button>
+            <p class="w3-right">Need <a href="#" class="w3-text-blue">help?</a></p>
+        </div>
+        </div>
+    </div>
+
+
+    <!-- The Contact Section -->
+    <div class="w3-container w3-content w3-padding-64" style="max-width:800px" id="signup">
+        <h2 class="w3-wide w3-center">CONTACT</h2>
+        <p class="w3-opacity w3-center"><i>Drop a note!</i></p>
+        <div class="w3-row w3-padding-32">
+        <div class="w3-col m6 w3-large w3-margin-bottom">
+            <i class="fa fa-map-marker" style="width:30px"></i> Hyderabad, India<br>
+            <i class="fa fa-phone" style="width:30px"></i> Phone: +91 9717047395<br>
+            <i class="fa fa-envelope" style="width:30px"> </i> Email: nift.hyderabad@gmail.com<br>
+        </div>
+        <div class="w3-col m6">
+            <form action="/action_page.php" target="_blank">
+            <div class="w3-row-padding" style="margin:0 -16px 8px -16px">
+                <div class="w3-half">
+                <input class="w3-input w3-border" type="text" placeholder="Name" required name="Name">
+                </div>
+                <div class="w3-half">
+                <input class="w3-input w3-border" type="text" placeholder="Email" required name="Email">
+                </div>
+            </div>
+            <input class="w3-input w3-border" type="text" placeholder="Message" required name="Message">
+            <button class="w3-button w3-black w3-section w3-right" type="submit">SEND</button>
+            </form>
+        </div>
+        </div>
+    </div>
+    
+    <!--SIGN UP MODAL-->
+    
+
+
+    <!-- End Page Content -->
+    </div>
+
+
+    <!-- Image of location/map -->
+    <img src="n.jpg" class="w3-image w3-greyscale-min" style="width:100%">
+
+
+    <!-- Footer -->
+    <footer class="w3-container w3-padding-64 w3-center w3-opacity w3-light-grey w3-xlarge">
+    <i class="fa fa-facebook-official w3-hover-opacity"></i>
+    <i class="fa fa-instagram w3-hover-opacity"></i>
+    <i class="fa fa-snapchat w3-hover-opacity"></i>
+    <i class="fa fa-pinterest-p w3-hover-opacity"></i>
+    <i class="fa fa-twitter w3-hover-opacity"></i>
+    <i class="fa fa-linkedin w3-hover-opacity"></i>
+    <p class="w3-medium">Powered by <a href="https://www.linkedin.com/company/tech-sparkss/" target="_blank">Tech Sparkss</a></p>
+    </footer>
+
+    <script>
+
+
+    // Automatic Slideshow - change image every 4 seconds
+    var myIndex = 0;
+    carousel();
+
+    function carousel() {
+    var i;
+    var x = document.getElementsByClassName("mySlides");
+    for (i = 0; i < x.length; i++) {
+        x[i].style.display = "none";  
+    }
+    myIndex++;
+    if (myIndex > x.length) {myIndex = 1}    
+    x[myIndex-1].style.display = "block";  
+    setTimeout(carousel, 4000);    
+    }
+
+    // Used to toggle the menu on small screens when clicking on the menu button
+    function myFunction() {
+    var x = document.getElementById("navDemo");
+    if (x.className.indexOf("w3-show") == -1) {
+        x.className += " w3-show";
+    } else { 
+        x.className = x.className.replace(" w3-show", "");
+    }
+    }
+
+
+    // When the user clicks anywhere outside of the modal, close it
+    var modal = document.getElementById('ticketModal');
+    window.onclick = function(event) {
+    if (event.target == modal) {
+        modal.style.display = "none";
+    }
+    }
+    </script>
+
+    </body>
+</html>
